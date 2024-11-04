@@ -1,4 +1,4 @@
-const taskRoutes=(req, res) =>{
+const taskRoutes =(req, res) =>{
     if(req.method === 'GET'){
         getTasks(req, res);
     }else if(req.method === 'POST'){
@@ -18,3 +18,5 @@ const taskRoutes=(req, res) =>{
     }
 
 }
+
+module.exports =  taskRoutes;
