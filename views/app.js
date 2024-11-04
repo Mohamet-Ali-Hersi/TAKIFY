@@ -8,9 +8,9 @@ const server = http.createServer((req, res) => {
         tasksRoutes(res,res)
     }else {
         res.writeHead(404, 'Not Found',{ 'content-tpye': 'application/json'})
-        res.end(JSON.stringify){
-            message: 'sorry, you got lost!'
-        }
+        res.end(JSON.stringify({
+            message: 'Sorry, you got lost!'
+        }))
     }
 
 });
