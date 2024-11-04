@@ -3,7 +3,9 @@ const http = require('http');
 const HOSTNAME = 'localhost';
 const PORT = 9000;
 
-const server = http.createServer();
+const server = http.createServer((req, res) => {
+    
+});
 
 server.listen(PORT,HOSTNAME,()=>{
     console.log(`server running on port ${PORT}`);
