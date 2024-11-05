@@ -38,3 +38,14 @@ exports.createTasks = (req,res)=>{
 
 }
 
+exports.updateTasks = (req, res)=>{
+    res.end(JSON.stringify({
+        message: 'Update Task endpoint is not implemented.'
+    }));
+}
+
+exports.deletedTasks = (req, res)=>{
+    res.end(JSON.stringify({
+        message: 'Delete Task endpoint is not implemented.'
+    }));
+}
